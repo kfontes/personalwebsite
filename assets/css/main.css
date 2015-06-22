@@ -1565,11 +1565,6 @@
 					font-size: 1.25em;
 				}
 
-			#me .icons {
-				display: -webkit-box-sizing;
-				padding: 1em;
-			}
-
 		/* Footer */
 
 			#footer {
@@ -1585,5 +1580,9 @@
 					#footer .copyright li:before {
 						display: none;
 					}
+
+				#accounts > a span {
+					padding: 2em;
+				}
 
 	}
