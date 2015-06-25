@@ -855,7 +855,7 @@
 		-webkit-appearance: none;
 		border: 0;
 		background: #f4f4f4;
-		padding: 0.75em;
+		padding: 0.65em;
 		width: 100%;
 		-moz-transition: background-color .25s ease-in-out;
 		-webkit-transition: background-color .25s ease-in-out;
@@ -1054,6 +1054,9 @@
 			display: none;
 		}
 
+	#accounts > .icon {
+		padding:20px;
+	}
 /* Nav */
 
 	#nav a {
