@@ -93,12 +93,6 @@
 	color: #fff;
 }
 
-/*
-.grid figcaption span:before {
-	content: 'by ';
-} 
-*/
-
 .grid figcaption a {
 	text-align: center;
 	padding: 5px 5px;
@@ -107,6 +101,12 @@
 	background: #ed4e6e;
 	color: #fff;
 }
+
+/*
+.grid figcaption span:before {
+	content: 'by ';
+} 
+*/
 
 @media screen and (max-width: 31.5em) {
 	.grid {
