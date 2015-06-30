@@ -93,12 +93,6 @@
 	color: #fff;
 }
 
-/*
-.grid figcaption span:before {
-	content: 'by ';
-} 
-*/
-
 .grid figcaption a {
 	text-align: center;
 	padding: 5px 5px;
@@ -107,6 +101,12 @@
 	background: #ed4e6e;
 	color: #fff;
 }
+
+/*
+.grid figcaption span:before {
+	content: 'by ';
+} 
+*/
 
 @media screen and (max-width: 31.5em) {
 	.grid {
@@ -988,7 +988,7 @@
 		-webkit-appearance: none;
 		border: 0;
 		background: #f4f4f4;
-		padding: 0.75em;
+		padding: 0.65em;
 		width: 100%;
 		-moz-transition: background-color .25s ease-in-out;
 		-webkit-transition: background-color .25s ease-in-out;
@@ -1187,11 +1187,17 @@
 			display: none;
 		}
 
+<<<<<<< HEAD
 		#accounts > .icon {
 			padding: 20px;
 			width: 100px;
 			height: 100px;
 		}
+=======
+	#accounts > .icon {
+		padding:20px;
+	}
+>>>>>>> c1a78ecddce14bc11fe17a122392c72df64d11bb
 /* Nav */
 
 	#nav a {
